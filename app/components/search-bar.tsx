@@ -26,7 +26,7 @@ export function SearchBar({ profile }: props) {
           type='text'
           name='filter'
           className='w-full rounded-xl px-3 py-2'
-          placeholder='Search a message or name'
+          placeholder='Search a message'
         />
         <svg
           className='w-4 h-4 fill-current text-gray-400 -ml-8'
