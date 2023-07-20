@@ -141,7 +141,7 @@ export default function Login() {
           {action === 'login' ? 'Sign Up' : 'Sign In'}
         </button>
 
-        <h2 className='text-5xl font-extrabold text-yellow-300'>
+        <h2 className='text-5xl font-extrabold text-yellow-300 mt-[70px]'>
           Welcome to Kudos!
         </h2>
         <p className='font-semibold text-slate-300'>
