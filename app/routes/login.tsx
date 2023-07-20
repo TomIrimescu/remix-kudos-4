@@ -141,7 +141,7 @@ export default function Login() {
           {action === 'login' ? 'Sign Up' : 'Sign In'}
         </button>
 
-        <h2 className='text-5xl font-extrabold text-yellow-300 mt-[70px]'>
+        <h2 className='text-5xl font-extrabold text-yellow-300 mt-[80px] text-center mr-[20px] ml-[20px]'>
           Welcome to Kudos!
         </h2>
         <p className='font-semibold text-slate-300'>
@@ -149,7 +149,10 @@ export default function Login() {
             ? 'Log In To Give Some Praise!'
             : 'Sign Up To Get Started!'}
         </p>
-        <form method='POST' className='rounded-2xl bg-gray-200 p-6 w-96'>
+        <form
+          method='POST'
+          className='rounded-2xl bg-gray-200 p-6 w-80 mb-[40px]'
+        >
           <div className='text-xs font-semibold text-center tracking-wide text-red-500 w-full'>
             {formError}
           </div>
