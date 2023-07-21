@@ -9,7 +9,7 @@ interface KudoWithRecipient extends Kudo {
 export function RecentBar({ kudos }: { kudos: KudoWithRecipient[] }) {
   return (
     <div className='w-[120px] border-l-2 border-l-yellow-300 flex-col items-center hidden md:inline-flex lg:inline-flex'>
-      <h2 className='text-xl text-yellow-300 font-semibold my-6'>
+      <h2 className='text-xl text-yellow-300 font-semibold my-6 text-center'>
         Recent <br />
         Kudos
       </h2>
